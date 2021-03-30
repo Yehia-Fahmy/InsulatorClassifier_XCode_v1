@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD2097F32613B8770070CD41 /* GreyInsulatorClassifier1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = BD2097F22613B8770070CD41 /* GreyInsulatorClassifier1.mlmodel */; };
 		BD24DBA22609243F00D738C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD24DBA12609243F00D738C5 /* AppDelegate.swift */; };
 		BD24DBA42609243F00D738C5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD24DBA32609243F00D738C5 /* SceneDelegate.swift */; };
 		BD24DBA62609243F00D738C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD24DBA52609243F00D738C5 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD2097F22613B8770070CD41 /* GreyInsulatorClassifier1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = GreyInsulatorClassifier1.mlmodel; sourceTree = "<group>"; };
 		BD24DB9E2609243F00D738C5 /* InsulatorClassifier_v1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InsulatorClassifier_v1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD24DBA12609243F00D738C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD24DBA32609243F00D738C5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 		BD24DBA02609243F00D738C5 /* InsulatorClassifier_v1 */ = {
 			isa = PBXGroup;
 			children = (
+				BD2097F22613B8770070CD41 /* GreyInsulatorClassifier1.mlmodel */,
 				BD24DBA12609243F00D738C5 /* AppDelegate.swift */,
 				BD24DBA32609243F00D738C5 /* SceneDelegate.swift */,
 				BD24DBA52609243F00D738C5 /* ViewController.swift */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD2097F32613B8770070CD41 /* GreyInsulatorClassifier1.mlmodel in Sources */,
 				BD24DBA62609243F00D738C5 /* ViewController.swift in Sources */,
 				BD24DBA22609243F00D738C5 /* AppDelegate.swift in Sources */,
 				BD24DBA42609243F00D738C5 /* SceneDelegate.swift in Sources */,
