@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        self.navigationItem.title = "Insulator Classifier"
     }
 
     @IBAction func cameraButtonTapped(_ sender: UIBarButtonItem) {
