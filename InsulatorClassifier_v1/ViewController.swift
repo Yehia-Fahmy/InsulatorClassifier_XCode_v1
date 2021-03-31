@@ -11,6 +11,7 @@ import CoreML
 
 class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
 
+    @IBOutlet weak var classificationLabel: UILabel!
     @IBOutlet weak var imageView: UIImageView!
     // create the object
     let imagePicker = UIImagePickerController()
@@ -45,7 +46,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
             guard let ciimage = CIImage(image: userPickedImage) else {fatalError("could not conver the image to ciimage")}
             // make the inference
             let inference = makeInference(image: ciimage)
-            print(inference)
+            classificationLabel.text = inference
         }
         
         // we are done
