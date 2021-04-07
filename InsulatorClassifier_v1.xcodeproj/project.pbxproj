@@ -7,17 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BD2097F32613B8770070CD41 /* GreyInsulatorClassifier1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = BD2097F22613B8770070CD41 /* GreyInsulatorClassifier1.mlmodel */; };
 		BD24DBA22609243F00D738C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD24DBA12609243F00D738C5 /* AppDelegate.swift */; };
 		BD24DBA42609243F00D738C5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD24DBA32609243F00D738C5 /* SceneDelegate.swift */; };
 		BD24DBA62609243F00D738C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD24DBA52609243F00D738C5 /* ViewController.swift */; };
 		BD24DBA92609243F00D738C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD24DBA72609243F00D738C5 /* Main.storyboard */; };
 		BD24DBAB2609244500D738C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD24DBAA2609244500D738C5 /* Assets.xcassets */; };
 		BD24DBAE2609244500D738C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD24DBAC2609244500D738C5 /* LaunchScreen.storyboard */; };
+		BDED0A54261DF65C0035A746 /* InsulatorClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = BDED0A53261DF65C0035A746 /* InsulatorClassifier.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BD2097F22613B8770070CD41 /* GreyInsulatorClassifier1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = GreyInsulatorClassifier1.mlmodel; sourceTree = "<group>"; };
 		BD24DB9E2609243F00D738C5 /* InsulatorClassifier_v1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InsulatorClassifier_v1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD24DBA12609243F00D738C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD24DBA32609243F00D738C5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +25,7 @@
 		BD24DBAA2609244500D738C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD24DBAD2609244500D738C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD24DBAF2609244500D738C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDED0A53261DF65C0035A746 /* InsulatorClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = InsulatorClassifier.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +58,7 @@
 		BD24DBA02609243F00D738C5 /* InsulatorClassifier_v1 */ = {
 			isa = PBXGroup;
 			children = (
-				BD2097F22613B8770070CD41 /* GreyInsulatorClassifier1.mlmodel */,
+				BDED0A53261DF65C0035A746 /* InsulatorClassifier.mlmodel */,
 				BD24DBA12609243F00D738C5 /* AppDelegate.swift */,
 				BD24DBA32609243F00D738C5 /* SceneDelegate.swift */,
 				BD24DBA52609243F00D738C5 /* ViewController.swift */,
@@ -140,8 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD2097F32613B8770070CD41 /* GreyInsulatorClassifier1.mlmodel in Sources */,
 				BD24DBA62609243F00D738C5 /* ViewController.swift in Sources */,
+				BDED0A54261DF65C0035A746 /* InsulatorClassifier.mlmodel in Sources */,
 				BD24DBA22609243F00D738C5 /* AppDelegate.swift in Sources */,
 				BD24DBA42609243F00D738C5 /* SceneDelegate.swift in Sources */,
 			);

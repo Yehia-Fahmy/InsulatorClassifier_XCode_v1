@@ -21,7 +21,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         self.navigationItem.title = "Insulator Classifier"
         // image picker initialization
         imagePicker.delegate = self
-        imagePicker.allowsEditing = false
+        imagePicker.allowsEditing = true
         imagePicker.sourceType = .camera
     }
     // when the camera button is tapped
@@ -40,7 +40,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     // function to be called every time the image picker is used
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
         // if an image was picked
-        if let userPickedImage = info[UIImagePickerController.InfoKey.originalImage] as? UIImage {
+        if let userPickedImage = info[UIImagePickerController.InfoKey.editedImage] as? UIImage {
             imageView.image = userPickedImage
             // convert the image to CIImage
             guard let ciimage = CIImage(image: userPickedImage) else {fatalError("could not conver the image to ciimage")}
@@ -56,7 +56,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     func makeInference(image: CIImage) -> String {
         var resultString = "unknown"
         // load the model
-        guard let model = try? VNCoreMLModel(for: GreyInsulatorClassifier1().model) else {fatalError("model could not be loaded")}
+        guard let model = try? VNCoreMLModel(for: InsulatorClassifier().model) else {fatalError("model could not be loaded")}
         
         // define our request
         let request = VNCoreMLRequest(model: model) { (request, error) in
