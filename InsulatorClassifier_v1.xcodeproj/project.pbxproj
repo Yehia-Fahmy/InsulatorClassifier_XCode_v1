@@ -14,6 +14,7 @@
 		BD24DBAB2609244500D738C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD24DBAA2609244500D738C5 /* Assets.xcassets */; };
 		BD24DBAE2609244500D738C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD24DBAC2609244500D738C5 /* LaunchScreen.storyboard */; };
 		BDED0A54261DF65C0035A746 /* InsulatorClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = BDED0A53261DF65C0035A746 /* InsulatorClassifier.mlmodel */; };
+		BDED0A5B261E0A8B0035A746 /* InsulatorClassifier3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = BDED0A5A261E0A8B0035A746 /* InsulatorClassifier3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		BD24DBAD2609244500D738C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD24DBAF2609244500D738C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BDED0A53261DF65C0035A746 /* InsulatorClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = InsulatorClassifier.mlmodel; sourceTree = "<group>"; };
+		BDED0A5A261E0A8B0035A746 /* InsulatorClassifier3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = InsulatorClassifier3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		BD24DBA02609243F00D738C5 /* InsulatorClassifier_v1 */ = {
 			isa = PBXGroup;
 			children = (
+				BDED0A5A261E0A8B0035A746 /* InsulatorClassifier3.mlmodel */,
 				BDED0A53261DF65C0035A746 /* InsulatorClassifier.mlmodel */,
 				BD24DBA12609243F00D738C5 /* AppDelegate.swift */,
 				BD24DBA32609243F00D738C5 /* SceneDelegate.swift */,
@@ -143,6 +146,7 @@
 				BD24DBA62609243F00D738C5 /* ViewController.swift in Sources */,
 				BDED0A54261DF65C0035A746 /* InsulatorClassifier.mlmodel in Sources */,
 				BD24DBA22609243F00D738C5 /* AppDelegate.swift in Sources */,
+				BDED0A5B261E0A8B0035A746 /* InsulatorClassifier3.mlmodel in Sources */,
 				BD24DBA42609243F00D738C5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

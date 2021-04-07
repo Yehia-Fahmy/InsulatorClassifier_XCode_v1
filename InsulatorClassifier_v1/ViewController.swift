@@ -56,7 +56,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     func makeInference(image: CIImage) -> String {
         var resultString = "unknown"
         // load the model
-        guard let model = try? VNCoreMLModel(for: InsulatorClassifier().model) else {fatalError("model could not be loaded")}
+        guard let model = try? VNCoreMLModel(for: InsulatorClassifier3().model) else {fatalError("model could not be loaded")}
         
         // define our request
         let request = VNCoreMLRequest(model: model) { (request, error) in
